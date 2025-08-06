@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+
+# Production
+build/
+
+# Misc
+.DS_Store
+*.tsbuildinfo
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Other files in parent directory
+*.pdf
+*.png
+*.md
+CLAUDE.md
+imc-prosperity-3-submission/
+imc-prosperity-3/
+imc3-backtester/
+job-aaplier/
+job-applier/
+job-apply-platform/
+poker-new/
+poker/
+rag/
+something/
+oops\ =-desing/
+printTranscript.pdf
+map.pdf
+tech_report.pdf
+vatsal_*.pdf
+AlphaEvolve*.pdf
+Screenshot*.png
+Untitled*.pdf
+.localized

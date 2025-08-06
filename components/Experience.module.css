@@ -1,0 +1,118 @@
+.experience {
+  padding: 80px 0;
+  background: var(--bg-dark);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sectionTitle h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  position: relative;
+  display: inline-block;
+}
+
+.sectionTitle h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background: var(--primary);
+}
+
+.experienceList {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.experienceCard {
+  background: var(--bg-card);
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  border-left: 5px solid var(--primary);
+  border: 1px solid var(--border);
+}
+
+.jobTitle {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.companyLink {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.companyLink:hover {
+  text-decoration: underline;
+}
+
+.duration {
+  text-align: left;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.position {
+  text-align: left;
+  color: var(--text-primary);
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.responsibilities {
+  text-align: left;
+  padding-left: 0;
+  list-style: none;
+}
+
+.responsibilities li {
+  margin-bottom: 15px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  position: relative;
+  padding-left: 20px;
+}
+
+.responsibilities li::before {
+  content: '•';
+  color: var(--primary);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .experienceCard {
+    padding: 30px 20px;
+  }
+  
+  .sectionTitle h2 {
+    font-size: 2rem;
+  }
+  
+  .companyLink {
+    font-size: 1.1rem;
+  }
+}
